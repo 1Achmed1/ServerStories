@@ -1,14 +1,9 @@
-name: Grampz
-main: com.andrewmc.grampz.main
-version: 1.0
+name: ServerStories
+main: io.andrewward2001.serverstories.main
+version: 1.3
 commands:
-   satisfy:
-      description: Satisfy all of your needs!
-      usage: Satisfied.
-      permission: grampz.satisfy
-      permission-message: You don't have enough permissions! Ask for perm grampz.satisfy
    serverstory:
       description: The story of this server!
       usage:
-      permission: grampz.story
-      permission-message: You don't have enough permissions! Ask for perm grampz.story
+      permission: serverstories.story
+      permission-message: You don't have enough permissions! Ask for perm serverstories.story
